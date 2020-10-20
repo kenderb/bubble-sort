@@ -35,5 +35,5 @@ def bubble_sort_by(array)
   array
 end
 
-p bubble_sort_by(%W[hello, nope, j]) { |left, right| left.length - right.length } 
+p bubble_sort_by(%w[hello nope j]) {|left, right| left.length - right.length} 
 
