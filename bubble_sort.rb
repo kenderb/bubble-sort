@@ -1,6 +1,5 @@
 def bubble_sort(array)
   array_length = array.length
-
   return array if array_length <= 1
   swap = true
   while swap
@@ -15,9 +14,7 @@ def bubble_sort(array)
   array
 end
 
-
 p bubble_sort([8, 6, 9, 1, 21])
-
 
 def bubble_sort_by(array)
   array_length = array.length
