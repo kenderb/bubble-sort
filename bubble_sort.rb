@@ -1,8 +1,3 @@
-#!/usr/bin/ruby
-
-require 'pry'
-
-
 def bubble_sort(array)
   array_length = array.length
 
