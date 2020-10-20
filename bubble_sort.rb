@@ -2,9 +2,7 @@ def bubble_sort(array)
   array_length = array.length
 
   return array if array_length <= 1
-
   swap = true
-
   while swap
     swap = false
     (array_length - 1).times do |i|
@@ -14,9 +12,7 @@ def bubble_sort(array)
       end
     end
   end
-
-  return array
-
+  array
 end
 
 
@@ -37,9 +33,7 @@ def bubble_sort_by(array)
       end
     end
   end
-
-  return array
-
+  array
 end
 
 p bubble_sort_by(["hello", "nope", "j"]) { |left, right| left.length - right.length } 
